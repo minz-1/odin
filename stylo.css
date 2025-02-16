@@ -1,0 +1,100 @@
+.header{
+    display:flex;
+    height: 60px;
+    background-color:rgb(186, 174, 174);
+
+    justify-content:space-around;
+
+}
+
+.links{
+    color: #fff;
+    display:flex;
+    gap:10px;
+   align-items: center;
+  
+}
+.hero{
+    background-color: #1F2937;
+    height: 500px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    font-family:Roboto, sans-serif;
+    padding: 50px;
+}
+.container{
+    display:flex;
+   
+    height:440px;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    height:50px;
+    width:150px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(225, 128, 23);
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.item{
+    font-size: 18px;
+    color:#E5E7EB;
+}
+.books{
+    
+   display: flex;
+   justify-content: space-around;
+  
+
+
+  
+}
+
+.title{
+    color: #1F2937;
+    font-family: Roboto, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+*{
+    font-family:Roboto, sans-serif ;
+}
+.quote{
+    font-size: 36px;
+    text-align: center;
+    font-weight: lighter;
+    font-style: italic;
+    height:250px;
+    padding: 150px;
+    background-color:rgb(186, 174, 174);
+}
+.signpls{
+    width: 800px;
+    margin:100px 300px;
+    padding:30px 70px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.button2{
+    color: #E5E7EB;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-weight: 600;
+    font-size: 15px; 
+}
+.footer{
+    text-align: center;
+    color: #fff;
+    background-color: #1F2937;
+    height: 90px;
+}
